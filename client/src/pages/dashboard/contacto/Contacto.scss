@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+
+.containerContacto {
+  background-color: #181e1e;
+  width: 100vw !important;
+}
+
+.hablamos {
+  padding-left: 20rem;
+  padding-right: 0;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.contactoTitulo {
+  color: #181e1e;
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  background-color: #dffa19;
+  border-radius: 0.2rem;
+  padding: 0 0.5rem 0 1rem;
+}
+
+.cardContacto {
+  background-color: #fbfcfc;
+  width: 40rem;
+  border-radius: 0.2rem;
+  margin-bottom: 10rem;
+  .iconosContacto1 {
+    width: 4.5rem;
+    padding: 0.8rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .iconosContacto {
+    width: 5rem;
+    padding: 0.9rem;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.fondoIconosContacto {
+  background-color: #dffa19;
+  border-radius: 100%;
+  width: 5rem;
+  aspect-ratio: 1/1;
+  border: solid 2px #181e1e;
+  margin-top: -2.5rem;
+  z-index: 1;
+}
+
+.h3Contacto {
+  font-size: 1.15rem;
+  color: #181e1e;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.pContacto {
+  font-size: 1.15rem;
+  color: #181e1e;
+  margin-top: 0.2rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.detalle {
+  font-size: 1.3rem;
+  color: #181e1e;
+  margin-top: -2rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.botonContacto {
+  font-size: 1.1rem;
+  color: #181e1e;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  background-color: #dffa19;
+  border-radius: 2rem;
+  width: 14rem;
+  border: solid 2px #181e1e;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  padding: 0.7rem;
+}
+
+.botonContacto:hover {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  background-color: #181e1e;
+  border-radius: 2rem;
+  width: 14rem;
+  border: solid 2px #181e1e;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.ilustracion1 {
+  .imgIlustracion1 {
+    width: 40rem;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  margin-bottom: 12rem;
+  background-color: #dffa19;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 932px) {
+  .ilustracion1 {
+    .imgIlustracion1 {
+      width: 20rem;
+      filter: brightness(1.1);
+      mix-blend-mode: multiply;
+    }
+  }
+
+  .hablamos {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: -9rem;
+  }
+
+  .contactoTitulo {
+    font-size: 1.2rem;
+  }
+
+  .cardContacto {
+    width: 20rem;
+    margin-bottom: 8rem;
+    .logoFotos {
+      width: 4rem;
+      padding: 0.8rem;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+// Tablets y pantallas medianas -->
+@media only screen and (min-width: 768px) and (max-width: 2880px) {
+  .contactoTitulo {
+    font-size: 2rem;
+    margin-top: 9rem;
+    width: 20rem;
+  }
+
+  .ilustracion1 {
+    .imgIlustracion1 {
+      width: 40rem;
+      filter: brightness(1.1);
+      mix-blend-mode: multiply;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .contactoTitulo {
+    font-size: 2rem;
+    width: 38rem;
+    margin-top: 9rem;
+  }
+
+  .h3Contacto {
+    font-size: 1.5rem;
+  }
+
+  .pContacto {
+    font-size: 1.5rem;
+  }
+}

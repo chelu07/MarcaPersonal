@@ -1,0 +1,339 @@
+.cardExperiencia {
+  background-color: #fbfcfc;
+  width: 40rem;
+  border-radius: 0.2rem;
+  margin-bottom: 6rem;
+
+  padding: 2rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-top: -70rem;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 884px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-top: -70rem;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 430px) and (max-width: 932px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+    margin-left: 2.6rem;
+    margin-top: -70rem;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+}
+
+.cardExperiencia2 {
+  background-color: #fbfcfc;
+  width: 40rem;
+  border-radius: 0.2rem;
+  margin-bottom: 6rem;
+  padding: 2rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+
+    margin-left: 1rem;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 884px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 430px) and (max-width: 932px) {
+    width: 20rem;
+    border-radius: 0.2rem;
+    margin-bottom: 4rem;
+    margin-left: 2.6rem;
+
+    padding: 2rem 1rem 2rem 1rem;
+  }
+}
+
+.h3Experiencia {
+  font-size: 1.15rem;
+  color: #181e1e;
+  width: 30rem;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding: 1.4rem;
+  background-color: #dffa19;
+  border: 1px solid #181e1e;
+  border-radius: 0.2rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    font-size: 0.9rem;
+    width: 17rem;
+    padding: 1rem;
+  }
+}
+
+.pExperiencia {
+  font-size: 1.15rem;
+  color: #181e1e;
+  margin-bottom: -1.5rem;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding: 1rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+.pExperiencia2 {
+  font-size: 1.15rem;
+  color: #181e1e;
+  margin-bottom: -1.5rem;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  padding: 1rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+.lineaTiempo {
+  border-right: 2px solid white;
+  height: 70rem;
+  margin-right: 3rem;
+  margin-top: -1rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    border-right: none;
+  }
+}
+
+.circuloTiempo {
+  background-color: white;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: -2rem;
+  margin-top: 3rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    display: none;
+  }
+}
+
+.circuloTiempo2 {
+  background-color: white;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: -1rem;
+  margin-top: 38rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    display: none;
+  }
+}
+
+.experienciaTitulo {
+  font-size: 3rem;
+  color: white;
+  font-family: "Roboto Mono";
+  font-weight: 100;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  border-radius: 0.1rem;
+  width: 60rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 667px) {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1rem;
+  }
+}
+
+.fotosFormacion {
+  img {
+    width: 17rem;
+    border-radius: 0.2rem;
+  }
+}
+
+.cardFormacion {
+  width: 26rem;
+  background-color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 7rem;
+  border-radius: 0.2rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 932px) {
+    width: 20rem;
+  }
+}
+
+.h3Formacion {
+  color: white;
+  background-color: #181e1e;
+
+  font-size: 1.2rem;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  margin-top: -1.7rem;
+  width: 22rem;
+  border-radius: 0.2rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 932px) {
+    width: 20rem;
+    font-size: 1rem;
+    width: 17rem;
+  }
+}
+
+.pFormacion1 {
+  color: #181e1e;
+  font-size: 1.3rem;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  margin-top: 1rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 932px) {
+    width: 20rem;
+    font-size: 1.1rem;
+    width: 17rem;
+  }
+}
+
+.pFormacion2 {
+  color: #181e1e;
+  font-size: 1.2rem;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  margin-top: -0.8rem;
+  @media only screen and (min-width: 375px) and (max-width: 932px) {
+    width: 20rem;
+    font-size: 1rem;
+    width: 17rem;
+  }
+}
+
+.cardTEC {
+  margin-bottom: 1.5rem;
+  .iconosTEC {
+    width: 8rem;
+    padding: 1.8rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .fondoIconosTEC {
+    background-color: white;
+    border-radius: 100%;
+
+    width: 8rem;
+    height: 8rem;
+    border: solid 2px #181e1e;
+    z-index: 1;
+  }
+}
+
+.h3TEC {
+  font-size: 1.3rem;
+  color: white;
+  width: 15rem;
+  margin-top: -0.6rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  padding: 1rem;
+  background-color: none;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+}
+
+// Tablets y pantallas medianas -->
+@media only screen and (min-width: 768px) and (max-width: 2880px) {
+  .cardExperiencia {
+    margin-top: 1rem;
+    width: 35rem;
+    margin-left: -17rem;
+  }
+
+  .cardExperiencia2 {
+    margin-top: 1rem;
+    width: 35rem;
+    margin-left: -17rem;
+  }
+
+  .lineaTiempo {
+    border-right: 2px solid white;
+    height: 75rem;
+    margin-right: 20rem;
+    margin-top: -1rem;
+  }
+
+  .circuloTiempo {
+    margin-top: 4rem;
+  }
+
+  .circuloTiempo2 {
+    margin-top: 40rem;
+  }
+
+  .cardTEC {
+    margin-bottom: 1.5rem;
+    .iconosTEC {
+      width: 8rem;
+      padding: 1.8rem;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .fondoIconosTEC {
+      background-color: white;
+      border-radius: 100%;
+
+      width: 8rem;
+      height: 8rem;
+      border: solid 2px #181e1e;
+      z-index: 1;
+    }
+  }
+
+  .h3TEC {
+    font-size: 1.3rem;
+    color: white;
+    width: 15rem;
+    margin-top: -0.6rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    padding: 1rem;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+  }
+
+  .TECTitulo {
+    margin-top: -130rem;
+  }
+}

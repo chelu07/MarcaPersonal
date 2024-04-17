@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #181e1e;
+  width: 100vw !important;
+
+  button {
+    font-family: "Roboto Mono";
+    font-weight: 150;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    letter-spacing: 1px;
+  }
+
+  button:hover {
+    color: #dffa1b;
+    font-size: 1.2rem;
+    background-color: transparent !important;
+  }
+
+  .navbar-toggler {
+    background-color: #dffa1b !important; // Color de fondo del botón hamburguesa
+    border-color: #dffa1b !important;
+  }
+
+  .navbar-collapse {
+    background-color: #181e1e !important; // Color de fondo del menú desplegable
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 932px) {
+  .navbar {
+    background-color: #181e1e;
+
+    button {
+      font-family: "Roboto Mono";
+      font-weight: 150;
+      color: white;
+      font-size: 1.2rem;
+      border: none;
+      margin: 0.5rem;
+      background-color: transparent;
+      letter-spacing: 1px;
+    }
+
+    button:hover {
+      color: #dffa1b;
+      font-size: 1.2rem;
+      background-color: transparent !important;
+    }
+  }
+}
